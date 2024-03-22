@@ -1,0 +1,124 @@
+body, html {
+    height: 100%;
+}
+
+.contenedorPrincipal{
+    background-color: green; 
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    align-items: center;
+}
+
+.contenedorFondo{
+    width: 100%;
+    z-index: 10;
+
+}
+
+#f1{
+    background-color: lightgreen;
+    height: 25%;
+}
+
+#f2{
+    background-color: lightgray;
+    height: 75%;
+}
+
+.contenedorCentral{
+    background-color: white;
+    width: 900px;
+    height: 500px;
+    z-index: 20;
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorFoto{
+    width: 100%;
+    height: 300px;
+    background-color: #474b4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenUsuario{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 10px;
+    border: solid 1px black;
+    border-radius: 75px;
+}
+
+.nombreUsuario{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif,Helvetica;
+}
+
+.profesionUsuario{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif,Helvetica;
+}
+
+.contenedorBotones{
+    margin-top: 10px;
+}
+
+.botonInfo{
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+#Proyectos{
+    background-color: #00855a;
+}
+
+#Descargar{
+    background-color: #70726e;
+}
+
+.contenedorInformacion{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.perfilUsuario, .informacionBasica{
+    margin: 10px;
+    border: transparent;
+    width: 42%;
+}
+
+.informacionBasica{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.etiquetasUsuario{
+    height: 100%;
+    width: 40%;
+}
+
+.datosUsuario{
+    height: 100%;
+    width: 60%;
+}
